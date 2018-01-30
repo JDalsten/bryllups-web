@@ -1,8 +1,38 @@
-@import url('https://fonts.go;ogleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css?family=Muli');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+  font-family: "Josefin Sans - Bold";
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Josefin Sans - Light";
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: "Josefin Sans - Regular";
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Josefin Sans - SemiBold";
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat - Bold";
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat - Light";
+  src: url("fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat - Regular";
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat - SemiBold";
+  src: url("fonts/Montserrat-SemiBold.ttf");
+}
+
+
 html {
     box-sizing: border-box;
 }
@@ -34,7 +64,7 @@ p {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Roboto', sans-serif;
+
 }
 body,
 html {
@@ -119,7 +149,7 @@ body {
     background: #fff;
 }
 header {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans - Regular';
     font-size: 46px;
     color: #333;
 }
@@ -128,10 +158,9 @@ header {
     height: 35px;
 }
 .content-header h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans - SemiBold';
     font-size: 24px;
     color: #333;
-    font-weight: 500;
     margin-top: 5px;
     float: left;
 }
@@ -139,9 +168,9 @@ header {
     float: right;
 }
 .content-header span h3 {
+    font-family: 'Josefin Sans - Bold';
     font-size: 14px;
     color: #333;
-    font-weight: 400;
     margin-top: 5px;
     margin-right: 5px;
     float: left;
@@ -164,7 +193,8 @@ header {
 }
 .budget-table-row {
     display: table-row;
-    font-weight: 100;
+        font-family: 'Montserrat - Regular';
+
 }
 .budget-table-row-total {
     display: table-row;
@@ -191,9 +221,9 @@ header {
 }
 .budget-header-row {
     font-size: 14px;
-    font-weight: 500;
+    font-family: 'Montserrat - SemiBold';
 }
 .budget-table-row-total .budget-table-cell {
     border-bottom: none;
-    font-weight: 400;
+    font-family: 'Montserrat - SemiBold';
 }
